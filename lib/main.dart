@@ -18,8 +18,10 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    print('ok');
     return const MaterialApp(
       home: Splash(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

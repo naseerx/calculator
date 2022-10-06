@@ -18,6 +18,7 @@ class _SplashState extends State<Splash> {
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => const Calculator()));
     });
+    print('ok');
   }
 
   @override
