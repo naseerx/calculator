@@ -13,12 +13,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  var userinput = '';
+  var userInput = '';
   var answer = '';
 
   @override
   Widget build(BuildContext context) {
-    print('ok');
     return const MaterialApp(
       home: Splash(),
       debugShowCheckedModeBanner: false,
